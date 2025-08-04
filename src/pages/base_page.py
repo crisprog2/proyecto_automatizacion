@@ -17,3 +17,4 @@ class BasePage:
         :param url: Dirección web a la que navegar
         """
         self.driver.get(url)
+        self.driver.maximize_window()  # Maximiza la ventana del navegador
